@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "https://sf-js.github.io/contact-manager",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.15",
     "@fortawesome/free-solid-svg-icons": "5.7.2",
@@ -11,6 +12,7 @@
     "axios": "0.18.0",
     "bootstrap": "4.3.1",
     "classnames": "2.2.6",
+    "gh-pages": "2.0.1",
     "prop-types": "15.7.2",
     "react": "16.8.3",
     "react-dom": "16.8.3",
@@ -20,6 +22,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

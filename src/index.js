@@ -6,7 +6,7 @@ import AddContact from "./components/AddContact";
 import About from "./components/pages/About";
 import NotFound from "./components/pages/NotFound";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { Provider } from "./components/Context";
 
 import { faPlus, faSortDown, faTimes } from "@fortawesome/free-solid-svg-icons";
